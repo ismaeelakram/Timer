@@ -1,0 +1,66 @@
+{
+  "name": "timer",
+  "productName": "Timer",
+  "description": "Simple timer app made in Electron and React",
+  "author": "Ismaeel Akram",
+  "version": "0.2.7",
+  "private": true,
+  "dependencies": {
+    "cross-env": "6.0.2",
+    "discord-rpc": "^3.1.0",
+    "electron-is-dev": "1.1.0",
+    "electron-log": "^3.0.8",
+    "node-notifier": "^6.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "concurrently": "4.1.2",
+    "electromon": "^1.0.10",
+    "electron": "6.0.11",
+    "electron-builder": "^21.2.0",
+    "prettier": "^1.4.4",
+    "react-scripts": "3.1.2",
+    "wait-on": "3.3.0"
+  },
+  "build": {
+    "appId": "com.ismaeelakram.timer",
+    "productName": "Timer",
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "copyright": "Copyright © 2020 Ismaeel Akram",
+    "files": [
+      "build/icon.ico",
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "main": "public/electron.js",
+  "homepage": "./",
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test --env=jsdom",
+    "react-eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "release": "yarn react-build && electron-builder --publish=always",
+    "build": "yarn react-build && yarn electron-build",
+    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electromon .\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
