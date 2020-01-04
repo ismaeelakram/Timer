@@ -1,7 +1,7 @@
 <img src="public/icon.png" width="100" height="100"/>
 
 # Timer
-Timer is a simplistic timer app for Windows. All it has is a countdown and a pause button. Although it is this minimalistic, it has many features! Take a look!
+Timer is a simplistic timer app for Windows, Mac and Linux. All it has is a countdown and a pause button. Although it is this minimalistic, it has many features! Take a look!
 
 ![Pic of timer](https://i.imgur.com/bv72F3t.png)
 
