@@ -18,5 +18,13 @@ You can download a prebuilt version [here](https://github.com/ismaeelakram/Timer
 ```
 git clone https://github.com/ismaeelakram/Timer
 cd Timer
+
+---
 yarn start (to start)
 yarn build (to build)
+
+or
+
+npm start (to start)
+npm run build (to build)
+---
