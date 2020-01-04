@@ -20,11 +20,12 @@ git clone https://github.com/ismaeelakram/Timer
 cd Timer
 
 ---
+yarn install
 yarn start (to start)
 yarn build (to build)
 
 or
-
+npm install
 npm start (to start)
 npm run build (to build)
 ---
