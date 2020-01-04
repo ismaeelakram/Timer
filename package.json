@@ -3,7 +3,7 @@
   "productName": "Timer",
   "description": "Simple timer app made in Electron and React",
   "author": "Ismaeel Akram",
-  "version": "0.2.7",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "cross-env": "6.0.2",
@@ -36,7 +36,7 @@
       "node_modules/**/*"
     ],
     "directories": {
-      "buildResources": "assets"
+      "buildResources": "public"
     }
   },
   "main": "public/electron.js",
