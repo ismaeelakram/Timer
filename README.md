@@ -1,2 +1,14 @@
+<img src="public/icon.png" width="100" height="100"/>
+
 # Timer
- A simplistic timer app for Windows, Mac and Linux. Made with Electron and React.
+Timer is a simplistic timer app for Windows. All it has is a countdown and a pause button. Although it is this minimalistic, it has many features! Take a look!
+
+![Pic of timer](https://i.imgur.com/bv72F3t.png)
+
+Now isn't that the easiest-to-use app ever? But it has many more features such as Discord Rich Presence. If you are timing yourself, it shows up in your Discord profile for all of your friends to see!
+
+<img src="https://i.imgur.com/Uo7L1WF.png" width="150"/>
+
+Also, when you pause and play your timer, it notifies you so you never miss anything.
+
+<img src="https://i.imgur.com/iMR2bv2.png" width="400"/>

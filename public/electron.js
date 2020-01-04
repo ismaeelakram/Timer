@@ -43,7 +43,7 @@ const rpc = new RPC.Client({transport: 'ipc'});
 const startTimestamp = new Date();
 
 rpc.on('ready', () => {
-  console.log("rpc ready");
+  console.log("RPC is ready.");
   rpc.setActivity({
     details: 'Timing themselves',
     startTimestamp,
