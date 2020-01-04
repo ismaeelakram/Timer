@@ -12,3 +12,11 @@ Now isn't that the easiest-to-use app ever? But it has many more features such a
 Also, when you pause and play your timer, it notifies you so you never miss anything.
 
 <img src="https://i.imgur.com/iMR2bv2.png" width="400"/>
+
+## Downloads
+You can download a prebuilt version [here](https://github.com/ismaeelakram/Timer/releases). If you want to build for yourself or view the code, run these commands:
+```
+git clone https://github.com/ismaeelakram/Timer
+cd Timer
+yarn start (to start)
+yarn build (to build)
